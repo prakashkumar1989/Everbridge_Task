@@ -36,10 +36,7 @@ public class TestBase {
 				//CONFIG
 				FileInputStream fsConfig = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\com\\everbridge\\config\\config.properties");
 				CONFIG.load(fsConfig);
-				
-				//OR
-				FileInputStream fsOR = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\com\\everbridge\\config\\OR.properties");
-				OR.load(fsOR);
+
 			} catch (FileNotFoundException fnf){
 				System.out.println("Encountered error in reading file");
 				fnf.printStackTrace();
