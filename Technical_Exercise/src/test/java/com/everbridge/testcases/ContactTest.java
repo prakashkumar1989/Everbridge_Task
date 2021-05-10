@@ -41,7 +41,7 @@ public class ContactTest extends TestBase{
 		contact.SelectAndAttachFile();
 		contact.enterMessage(CONFIG.getProperty("message"));
 		contact.clickSend();
-		Assert.assertEquals("Your message has been successfully sent to our te.", contact.sendSuccesMessage());
+		Assert.assertEquals("Your message has been successfully sent to our team.", contact.sendSuccesMessage());
 	}
 	@DataProvider
 	public Object[][] dataSet() throws InvalidFormatException, IOException {
