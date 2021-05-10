@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Ever Bridge">
+    <listeners>
+    	<listener class-name = "com.everbridge.utils.ReportListener"/>
+
+    </listeners>
+    <test name = "Contact Happy path">
+        <classes>
+            <class name = "com.everbridge.testcases.ContactTest" />
+        </classes>
+    </test>
+    
+
+</suite>
